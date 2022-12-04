@@ -52,6 +52,9 @@ span{
 .sobre img{
     width: 450px;
 }
+.corretores img{
+    width: 450px;
+}
 .texto-azul{
 color: #1d80c1;
 }
@@ -80,4 +83,8 @@ color: #1d80c1;
     line-height: 42px;
     text-align: left;
     font-size: 22px;
+}
+.contato{
+    background-color: #1d80c1;
+    color: white;
 }
