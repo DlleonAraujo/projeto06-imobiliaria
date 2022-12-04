@@ -29,7 +29,7 @@
 .topo a{
     margin-top: 15px;
     margin-bottom: 25px;
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
     color: #1d1d1d;
     border-bottom: solid 2px #1d1d1d;
@@ -73,8 +73,9 @@ color: #1d80c1;
     text-align: center;
     width: 700px;
 }
-.servicos span{
+.texto-amarelo{
     color: #fff81b;
+    font-weight: bold;
 }
 .servicos ul{
     margin: 40px auto;
@@ -87,4 +88,11 @@ color: #1d80c1;
 .contato{
     background-color: #1d80c1;
     color: white;
+}
+.contato p{
+    color: white;
+    background-color: #1d1d1d;
+    padding: 15px;
+    margin: 30px 0px;
+    text-align: center;
 }
