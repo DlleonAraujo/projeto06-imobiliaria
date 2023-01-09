@@ -1,98 +1,142 @@
 
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
 
-}
-.fonte{
-    font-family: tahoma;
-}
-.secao{
-    padding: 30px 0px;
+/* === Estilos globais === */
+.secao {
     text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
-.paragrafo-comum{
-    margin: 10px auto;
-    font-size: 18px;
-    line-height: 28px;
-    width: 980px;
-    text-align: justify;
-}
-.topo{
-    background-color: #afddfb;
-    
 
+.paragrafo {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
 }
-.topo img{
+
+/* ===  1ª seção === */
+.topo {
+    background-color: #afddfb;
+}
+
+.topo img {
     width: 150px;
 }
-.topo a{
+
+.paragrafo-topo {
+    text-align: center;
     margin-top: 15px;
     margin-bottom: 25px;
-    text-align: center;
-    font-size: 18px;
+}
+
+.link-topo {
     color: #1d1d1d;
-    border-bottom: solid 2px #1d1d1d;
+    font-size: 18px;
     text-decoration: none;
-    margin: 0px 10px;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
 }
-.banner{
+
+/* ===  2ª seção === */
+
+.banner {
+    padding-top: 0;
     margin-top: 50px;
-    padding-top: 0px;
 }
-span{
+
+/* ===  estilos para destaques === */
+
+span {
     font-weight: bold;
 }
-.sobre h1{
+
+/* ===  3ª seção === */
+
+h1 {
     color: #1d1d1d;
+    margin-bottom: 5px;
 }
-.sobre h2{
+
+h2 {
+    font-weight: normal;
     color: #1c81c0;
+    margin-top: 0;
 }
-.sobre img{
+
+.imagem {
     width: 450px;
 }
-.corretores img{
-    width: 450px;
+
+.texto-azul {
+    color: #1d80c1;
 }
-.texto-azul{
-color: #1d80c1;
-}
-.servicos{
+
+/* ===  4ª seção === */
+
+.servicos, .contato {
     background-color: #1d80c1;
 }
-.servicos h2{
+
+h3 {
     color: #ffffff;
     font-size: 28px;
     line-height: 42px;
 }
-.servicos p{
-    color: white;
+
+.paragrafo-servicos {
+    color: #ffffff;
     line-height: 42px;
+    width: 700px;
     font-size: 22px;
     text-align: center;
-    width: 700px;
 }
-.texto-amarelo{
+
+.texto-amarelo {
     color: #fff81b;
-    font-weight: bold;
 }
-.servicos ul{
-    margin: 40px auto;
+
+.lista-servicos {
     width: 135px;
-    color: white;
+    margin: 40px auto 40px;
+}
+
+.item-lista-servicos {
+    font-size: 22px;
     line-height: 42px;
     text-align: left;
-    font-size: 22px;
+    color: #fff;
 }
-.contato{
-    background-color: #1d80c1;
-    color: white;
-}
-.contato p{
-    color: white;
+
+/* ===  6ª seção === */
+
+.paragrafo-contato {
+    color: #fff;
     background-color: #1d1d1d;
     padding: 15px;
-    margin: 30px 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.lista-contato {
+    width: 210px;
+    list-style: none;
+    margin: 40px auto 40px;
+}
+
+.item-lista-contato {
+    margin-top: 15px;
     text-align: center;
+    font-size: 18px;
+}
+
+.link-contato {
+    background-color: #ffffff;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
 }
